@@ -2,10 +2,8 @@ import { Link as RouterLink, Outlet } from 'react-router-dom';
 // material
 import { styled } from '@material-ui/core/styles';
 // components
-import Logo from '../assets/static/phys.png';
-
+import { mockImgCover } from '../utils/mockImages';
 // ----------------------------------------------------------------------
-
 const HeaderStyle = styled('header')(({ theme }) => ({
   top: 0,
   left: 0,
@@ -25,7 +23,7 @@ export default function LogoOnlyLayout() {
     <>
       <HeaderStyle>
         <RouterLink to="/">
-          <Logo />
+          <mockImgCover />
         </RouterLink>
       </HeaderStyle>
       <Outlet />

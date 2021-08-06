@@ -4,11 +4,12 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 // components
-import Logo from '../assets/static/phys.png';
+// import Logo from '../';
 //
 import { MHidden } from '../components/@material-extend';
 
 // ----------------------------------------------------------------------
+import { mockImgCover } from '../utils/mockImages';
 
 const HeaderStyle = styled('header')(({ theme }) => ({
   top: 0,
@@ -36,7 +37,7 @@ export default function AuthLayout({ children }) {
   return (
     <HeaderStyle>
       <RouterLink to="/">
-        <Logo />
+        <mockImgCover />
       </RouterLink>
 
       <MHidden width="smDown">
