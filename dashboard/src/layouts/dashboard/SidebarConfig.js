@@ -6,6 +6,7 @@ import fileTextFill from '@iconify/icons-eva/file-text-fill';
 import lockFill from '@iconify/icons-eva/lock-fill';
 import personAddFill from '@iconify/icons-eva/person-add-fill';
 import alertTriangleFill from '@iconify/icons-eva/alert-triangle-fill';
+// import {SportsSoccerIcon} from '@material-ui/icons';
 
 // ----------------------------------------------------------------------
 
@@ -18,8 +19,8 @@ const sidebarConfig = [
     icon: getIcon(pieChart2Fill)
   },
   {
-    title: 'user',
-    path: '/dashboard/user',
+    title: 'Champions',
+    path: '/dashboard/champion',
     icon: getIcon(peopleFill)
   },
   {
